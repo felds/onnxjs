@@ -97,7 +97,10 @@ export class ExecutionPlan {
 
         const outputList = await this.profiler.event('node', thisOp.node.name, async () => {
           const op = thisOp.op;
-          /** @XXX seguindo instruções daqui: https://forums.fast.ai/t/how-to-run-a-fastai-model-in-the-browser/56571/3 */
+          /**
+           * @XXX seguindo instruções daqui:
+           * https://forums.fast.ai/t/how-to-run-a-fastai-model-in-the-browser/56571/3
+           */
           // if (!op.checkInputs(inputTensors)) {
           //   throw new Error(`invalid inputs detected; op: ${thisOp.node.name}`);
           // }

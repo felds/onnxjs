@@ -70,6 +70,7 @@
     "npmlog": "^4.1.2",
     "numpy-parser": "^1.2.3",
     "onnxjs-node": "^1.4.0",
+    "onnxruntime": "^1.7.0",
     "prettier": "2.0.5",
     "strip-json-comments": "^3.1.1",
     "ts-loader": "^8.0.2",
